@@ -1,5 +1,5 @@
 
-#Kafka Mesos Exporter for Prometheus
+# Kafka Mesos Exporter for Prometheus
 
 This is a *prometheus* (http://www.prometheus.io) *exporter* (https://prometheus.io/docs/instrumenting/exporters/) for *kafka-mesos* (http://kafka.mesosframeworks.com/)
 
@@ -20,8 +20,8 @@ curl localhost:8080
 ```
 
 
-Or through docker:
+Or through docker https://hub.docker.com/r/jamessoubry/kafka-mesos-exporter/:
 ```
-docker run -p 8080:8080 kafka-mesos-exporter 8080 kafka-sheduler:8081
+docker run -p 8080:8080 jamessoubry/kafka-mesos-exporter 8080 kafka-sheduler:8081
 curl localhost:8080
 ```
